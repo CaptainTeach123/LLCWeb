@@ -18,6 +18,19 @@ them to replace with your real organization name and address.
 python3 -m http.server 8000   # then open http://localhost:8000
 ```
 
+## Publish on GitHub Pages
+
+1. On GitHub, open the repo's **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+3. Choose the branch that holds the site and the **/ (root)** folder, then **Save**.
+4. After a minute or two the site is live at
+   `https://<your-github-username>.github.io/<repo-name>/`
+   (for this repo: `https://captainteach123.github.io/LLCWeb/`).
+
+Later pushes to that branch redeploy automatically. The site uses only relative
+paths, so it works under the `/<repo-name>/` subpath. `.nojekyll` tells Pages
+to serve the files exactly as they are.
+
 ## Moving to your own domain later
 
 The site uses only relative paths and no hard-coded URLs, so it works unchanged
