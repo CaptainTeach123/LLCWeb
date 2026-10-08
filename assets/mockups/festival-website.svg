@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="Website mockup for the fictional Lantern Night Festival, with a night-sky hero of hanging lanterns, a ticket button and a schedule, shown on a browser window and a phone">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b1838"/><stop offset="1" stop-color="#3a2a5c"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#f2b632" stop-opacity=".55"/><stop offset="1" stop-color="#f2b632" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="#f0e8d9"/>
+  <ellipse cx="236" cy="384" rx="190" ry="10" fill="#1d1b19" opacity=".13"/>
+  <ellipse cx="500" cy="426" rx="76" ry="8" fill="#1d1b19" opacity=".13"/>
+
+  <!-- browser -->
+  <g transform="translate(36 60)" font-family="Helvetica, Arial, sans-serif">
+    <rect width="400" height="316" rx="12" fill="#1b1838" stroke="#1d1b19" stroke-width="2.5"/>
+    <path d="M0 12a12 12 0 0 1 12-12h376a12 12 0 0 1 12 12v18H0z" fill="#1d1b19"/>
+    <circle cx="18" cy="15" r="4" fill="#d2562f"/><circle cx="32" cy="15" r="4" fill="#f2b632"/><circle cx="46" cy="15" r="4" fill="#4fb3ab"/>
+    <rect x="72" y="8" width="170" height="14" rx="7" fill="#faf6ef" opacity=".2"/>
+    <rect y="30" width="400" height="190" fill="url(#night)"/>
+    <g fill="#fff6e0" opacity=".8"><circle cx="40" cy="60" r="1.5"/><circle cx="120" cy="48" r="1.2"/><circle cx="210" cy="64" r="1.5"/><circle cx="300" cy="46" r="1.2"/><circle cx="372" cy="70" r="1.5"/></g>
+    <!-- lanterns -->
+    <g stroke="#fff6e0" stroke-opacity=".5" stroke-width="1"><path d="M250 30v34M290 30v58M330 30v28M370 30v72"/></g>
+    <circle cx="250" cy="82" r="30" fill="url(#glow)"/><circle cx="290" cy="112" r="30" fill="url(#glow)"/><circle cx="330" cy="76" r="30" fill="url(#glow)"/><circle cx="370" cy="120" r="30" fill="url(#glow)"/>
+    <g stroke="#1d1b19" stroke-width="1.5">
+      <ellipse cx="250" cy="82" rx="11" ry="14" fill="#f2b632"/>
+      <ellipse cx="290" cy="112" rx="11" ry="14" fill="#d2562f"/>
+      <ellipse cx="330" cy="76" rx="11" ry="14" fill="#f2b632"/>
+      <ellipse cx="370" cy="120" rx="11" ry="14" fill="#ee7449"/>
+    </g>
+    <text x="24" y="86" font-family="Georgia, serif" font-weight="700" font-size="32" fill="#fff6e0">Lantern Night</text>
+    <text x="24" y="114" font-family="Georgia, serif" font-style="italic" font-size="26" fill="#f2b632">Festival</text>
+    <text x="24" y="140" font-size="12" fill="#fff6e0" opacity=".9">Friday, Nov 6 · 6 PM · Riverside Park</text>
+    <rect x="24" y="154" width="118" height="24" rx="12" fill="#f2b632"/>
+    <text x="83" y="170" text-anchor="middle" font-size="12" font-weight="700" fill="#1d1b19">Get free tickets</text>
+    <g>
+      <rect x="18" y="234" width="114" height="62" rx="8" fill="#2a2548"/>
+      <rect x="143" y="234" width="114" height="62" rx="8" fill="#2a2548"/>
+      <rect x="268" y="234" width="114" height="62" rx="8" fill="#2a2548"/>
+      <g font-size="9" font-weight="700" letter-spacing="1" fill="#f2b632"><text x="30" y="254">6:00 PM</text><text x="155" y="254">6:30 PM</text><text x="280" y="254">8:30 PM</text></g>
+      <g font-family="Georgia, serif" font-weight="700" font-size="14" fill="#fff6e0"><text x="30" y="276">Food trucks</text><text x="155" y="276">Lantern walk</text><text x="280" y="276">Finale</text></g>
+    </g>
+  </g>
+
+  <!-- phone -->
+  <g transform="translate(436 110)" font-family="Helvetica, Arial, sans-serif">
+    <rect width="140" height="290" rx="24" fill="#1d1b19"/>
+    <rect x="7" y="7" width="126" height="276" rx="18" fill="url(#night)"/>
+    <rect x="45" y="13" width="50" height="8" rx="4" fill="#1d1b19"/>
+    <circle cx="70" cy="90" r="40" fill="url(#glow)"/>
+    <ellipse cx="70" cy="90" rx="15" ry="19" fill="#f2b632" stroke="#1d1b19" stroke-width="2"/>
+    <path d="M70 60v-20" stroke="#fff6e0" stroke-opacity=".6"/>
+    <text x="70" y="148" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="17" fill="#fff6e0">Lantern Night</text>
+    <text x="70" y="166" text-anchor="middle" font-size="10" fill="#fff6e0" opacity=".85">Fri, Nov 6 · 6 PM</text>
+    <rect x="22" y="184" width="96" height="28" rx="14" fill="#f2b632"/>
+    <text x="70" y="202" text-anchor="middle" font-size="12" font-weight="700" fill="#1d1b19">Get tickets</text>
+    <rect x="22" y="228" width="96" height="40" rx="8" fill="#2a2548"/>
+    <text x="32" y="245" font-size="9" font-weight="700" letter-spacing="1" fill="#f2b632">NEXT UP</text>
+    <text x="32" y="260" font-size="11" fill="#fff6e0">6:30 Lantern walk</text>
+  </g>
+</svg>

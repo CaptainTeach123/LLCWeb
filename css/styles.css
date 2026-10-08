@@ -124,6 +124,15 @@ em { font-style: italic; color: var(--clay); }
 .tick li { padding-left: 26px; position: relative; margin-bottom: .4em; }
 .tick li::before { content: ""; position: absolute; left: 2px; top: .5em; width: 12px; height: 7px; border-left: 2.5px solid var(--clay); border-bottom: 2.5px solid var(--clay); transform: rotate(-45deg); }
 
+/* Concept gallery */
+.gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.gallery figure { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+.gallery img { width: 100%; height: auto; aspect-ratio: 4 / 3; background: #f0e8d9; }
+.gallery figcaption { display: grid; gap: 2px; padding: 14px 18px 18px; }
+.gallery figcaption strong { font: 700 1.05rem var(--font-head); }
+.gallery figcaption span { font-size: .9rem; color: var(--muted); }
+.gallery-note { margin: 1.4rem 0 0; }
+
 /* Steps */
 .steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; counter-reset: s; }
 .steps li { border-top: 2px solid var(--line); padding-top: 22px; }
@@ -187,6 +196,7 @@ em { font-style: italic; color: var(--clay); }
   .hero-art { max-width: 520px; }
   .steps { grid-template-columns: repeat(2, 1fr); }
   .principles { grid-template-columns: repeat(2, 1fr); }
+  .gallery { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 760px) {
   .nav-toggle { display: block; }
@@ -200,6 +210,9 @@ em { font-style: italic; color: var(--clay); }
   .nav a { padding: 12px 4px; }
   .nav .btn { text-align: center; margin-top: 8px; }
   .cards, .row { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .gallery { grid-template-columns: 1fr; }
 }
 @media (max-width: 520px) {
   .steps, .principles { grid-template-columns: 1fr; }

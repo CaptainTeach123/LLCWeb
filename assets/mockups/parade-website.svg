@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="Website mockup for the fictional Maple Hollow Harvest Parade on a laptop-style browser window and a phone showing the parade day schedule">
+  <rect width="600" height="450" fill="#f0e8d9"/>
+  <ellipse cx="230" cy="392" rx="190" ry="10" fill="#1d1b19" opacity=".13"/>
+  <ellipse cx="493" cy="428" rx="80" ry="8" fill="#1d1b19" opacity=".13"/>
+
+  <!-- browser -->
+  <g transform="translate(36 70)" font-family="Helvetica, Arial, sans-serif">
+    <rect width="390" height="300" rx="12" fill="#fff" stroke="#1d1b19" stroke-width="2.5"/>
+    <path d="M0 12a12 12 0 0 1 12-12h366a12 12 0 0 1 12 12v18H0z" fill="#1d1b19"/>
+    <circle cx="18" cy="15" r="4" fill="#d2562f"/><circle cx="32" cy="15" r="4" fill="#f2b632"/><circle cx="46" cy="15" r="4" fill="#4fb3ab"/>
+    <rect x="72" y="8" width="170" height="14" rx="7" fill="#faf6ef" opacity=".2"/>
+    <text x="18" y="52" font-family="Georgia, serif" font-weight="700" font-size="13" fill="#1d1b19">Maple Hollow</text>
+    <g fill="#1d1b19" opacity=".35"><rect x="240" y="45" width="30" height="6" rx="3"/><rect x="280" y="45" width="30" height="6" rx="3"/><rect x="320" y="45" width="30" height="6" rx="3"/></g>
+    <rect y="62" width="390" height="100" fill="#17625f"/>
+    <circle cx="332" cy="112" r="34" fill="#f2b632"/>
+    <path d="M280 162q22-30 52-18t58 18z" fill="#0f4a47"/>
+    <text x="24" y="106" font-family="Georgia, serif" font-weight="700" font-size="30" fill="#fff6e0">Harvest Parade</text>
+    <text x="24" y="126" font-size="12" fill="#fff6e0" opacity=".9">Saturday, Oct 17 · Main Street</text>
+    <rect x="24" y="134" width="108" height="20" rx="10" fill="#d2562f"/>
+    <text x="78" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">Route &amp; times</text>
+    <g>
+      <rect x="18" y="176" width="110" height="56" rx="8" fill="#f0e8d9"/>
+      <rect x="140" y="176" width="110" height="56" rx="8" fill="#f0e8d9"/>
+      <rect x="262" y="176" width="110" height="56" rx="8" fill="#f0e8d9"/>
+      <g font-size="9" font-weight="700" letter-spacing="1" fill="#17625f">
+        <text x="30" y="194">DATE</text><text x="152" y="194">START</text><text x="274" y="194">ROUTE</text>
+      </g>
+      <g font-family="Georgia, serif" font-weight="700" font-size="15" fill="#1d1b19">
+        <text x="30" y="216">Oct 17</text><text x="152" y="216">10:00 AM</text><text x="274" y="216">Main → Park</text>
+      </g>
+    </g>
+    <rect x="18" y="244" width="354" height="44" rx="8" fill="#e4ecd8"/>
+    <path d="M32 270C80 250 120 286 180 266S280 252 346 268" fill="none" stroke="#d2562f" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 7"/>
+    <circle cx="32" cy="270" r="5" fill="#17625f"/><circle cx="346" cy="268" r="5" fill="#d2562f"/>
+  </g>
+
+  <!-- phone -->
+  <g transform="translate(418 120)" font-family="Helvetica, Arial, sans-serif">
+    <rect width="150" height="290" rx="24" fill="#1d1b19"/>
+    <rect x="7" y="7" width="136" height="276" rx="18" fill="#fff6e0"/>
+    <rect x="50" y="13" width="50" height="8" rx="4" fill="#1d1b19"/>
+    <rect x="7" y="30" width="136" height="48" fill="#17625f"/>
+    <text x="18" y="52" font-family="Georgia, serif" font-weight="700" font-size="15" fill="#fff6e0">Parade day</text>
+    <text x="18" y="68" font-size="10" fill="#fff6e0" opacity=".85">Saturday, Oct 17</text>
+    <g font-size="10">
+      <path d="M7 130h136M7 176h136M7 222h136" stroke="#1d1b19" stroke-opacity=".15"/>
+      <g font-weight="700" fill="#d2562f"><text x="16" y="108">10:00</text><text x="16" y="154">10:30</text><text x="16" y="200">11:30</text><text x="16" y="246">12:30</text></g>
+      <g fill="#1d1b19"><text x="54" y="108">Floats line up</text><text x="54" y="154">Parade steps off</text><text x="54" y="200">Pie contest</text><text x="54" y="246">Awards on stage</text></g>
+    </g>
+    <rect x="55" y="268" width="40" height="4" rx="2" fill="#1d1b19" opacity=".35"/>
+  </g>
+</svg>

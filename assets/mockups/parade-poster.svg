@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="Poster for the fictional Maple Hollow Harvest Parade showing a silhouetted parade of a float, flag bearer, drummer and trumpeter in front of a large sun">
+  <defs>
+    <clipPath id="p"><rect width="220" height="400" rx="6"/></clipPath>
+    <g id="m" fill="#0b2f2d">
+      <circle cx="0" cy="150" r="6"/>
+      <rect x="-5" y="157" width="10" height="22" rx="2"/>
+      <rect x="-5" y="179" width="4" height="13"/>
+      <rect x="1" y="179" width="4" height="13"/>
+    </g>
+  </defs>
+  <rect width="600" height="450" fill="#f0e8d9"/>
+  <ellipse cx="300" cy="436" rx="150" ry="9" fill="#1d1b19" opacity=".12"/>
+  <g transform="translate(190 25)">
+    <rect x="7" y="9" width="220" height="400" rx="6" fill="#1d1b19" opacity=".18"/>
+    <rect width="220" height="400" rx="6" fill="#fff6e0"/>
+    <g clip-path="url(#p)">
+      <rect width="220" height="200" fill="#17625f"/>
+      <circle cx="110" cy="118" r="50" fill="#f2b632"/>
+      <rect y="192" width="220" height="14" fill="#0b2f2d"/>
+      <!-- float -->
+      <g fill="#0b2f2d">
+        <rect x="14" y="160" width="72" height="26" rx="3"/>
+        <circle cx="28" cy="190" r="7"/><circle cx="72" cy="190" r="7"/>
+      </g>
+      <g fill="#d2562f">
+        <circle cx="34" cy="152" r="9"/><circle cx="56" cy="149" r="11"/><circle cx="77" cy="153" r="8"/>
+      </g>
+      <!-- marchers -->
+      <use href="#m" x="112"/>
+      <use href="#m" x="138"/>
+      <path d="M138 150V112" stroke="#0b2f2d" stroke-width="2"/>
+      <path d="M138 112l20 6-20 8z" fill="#d2562f"/>
+      <use href="#m" x="164"/>
+      <rect x="157" y="165" width="14" height="10" rx="2" fill="#d2562f"/>
+      <use href="#m" x="190"/>
+      <path d="M190 166l15-6" stroke="#0b2f2d" stroke-width="3" stroke-linecap="round"/>
+      <!-- bunting -->
+      <path d="M0 14H220" stroke="#1d1b19" stroke-width="1.5"/>
+      <path d="M6 15h22l-11 23z" fill="#d2562f"/><path d="M34 15h22l-11 23z" fill="#f2b632"/><path d="M62 15h22l-11 23z" fill="#fff6e0"/>
+      <path d="M90 15h22l-11 23z" fill="#d2562f"/><path d="M118 15h22l-11 23z" fill="#f2b632"/><path d="M146 15h22l-11 23z" fill="#fff6e0"/>
+      <path d="M174 15h22l-11 23z" fill="#d2562f"/><path d="M202 15h22l-11 23z" fill="#f2b632"/>
+    </g>
+    <text x="110" y="244" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="38" fill="#1d1b19">HARVEST</text>
+    <text x="110" y="284" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="38" fill="#d2562f">PARADE</text>
+    <path d="M70 302h80" stroke="#1d1b19" stroke-width="1.5"/>
+    <text x="110" y="326" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="12" letter-spacing="1.5" fill="#1d1b19">SATURDAY · OCT 17 · 10 AM</text>
+    <text x="110" y="346" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5b564f">Main Street · Maple Hollow</text>
+    <rect y="364" width="220" height="36" fill="#d2562f"/>
+    <path d="M0 400h220v-6a6 6 0 0 1-6 6H6a6 6 0 0 1-6-6z" fill="#d2562f"/>
+    <text x="110" y="387" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="12" fill="#fff">Floats · Bands · Candy · Free</text>
+  </g>
+</svg>
