@@ -1,0 +1,8 @@
+# Files Cloudflare should not publish (gitignore syntax).
+.git
+.github
+.gitignore
+.nojekyll
+.wrangler
+README.md
+wrangler.jsonc
