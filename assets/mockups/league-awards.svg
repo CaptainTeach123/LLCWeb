@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="Design sheet for custom season awards for the fictional Riverside Youth Soccer league: a 3D-printed trophy with a soccer ball on a faceted column, a laser-engraved walnut plaque with a brass plate, and a medal, with short specifications">
+  <defs>
+    <filter id="sh" x="-10%" y="-10%" width="125%" height="130%"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#1d1b19" flood-opacity=".18"/></filter>
+    <pattern id="ly" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.2" fill="#1d1b19" opacity=".14"/></pattern>
+    <pattern id="grain" width="6" height="12" patternUnits="userSpaceOnUse"><path d="M0 6q3-3 6 0" stroke="#4a2c14" stroke-opacity=".25" fill="none"/></pattern>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f0d27a"/><stop offset=".5" stop-color="#c9a43a"/><stop offset="1" stop-color="#e8c764"/></linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="#f0e8d9"/>
+  <!-- sheet grid -->
+  <g stroke="#1d1b19" stroke-opacity=".06"><path d="M0 60h600M0 120h600M0 180h600M0 240h600M0 300h600M0 360h600M60 0v450M120 0v450M180 0v450M240 0v450M300 0v450M360 0v450M420 0v450M480 0v450M540 0v450"/></g>
+  <!-- title block -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="28" y="34" font-family="Georgia, serif" font-weight="700" font-size="18" fill="#1d1b19">Season Awards</text>
+    <text x="28" y="50" font-size="9.5" letter-spacing="2" font-weight="700" fill="#17625f">RIVERSIDE YOUTH SOCCER · DESIGN SHEET</text>
+    <rect x="462" y="18" width="110" height="34" rx="6" fill="#fff6e0" stroke="#1d1b19" stroke-opacity=".3"/>
+    <text x="517" y="32" text-anchor="middle" font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#5b564f">REV 02 · QTY 24</text>
+    <text x="517" y="45" text-anchor="middle" font-size="8" fill="#1d1b19">Team colors: teal / sun</text>
+  </g>
+
+  <!-- trophy -->
+  <g transform="translate(120 395)" filter="url(#sh)">
+    <ellipse rx="70" ry="10" fill="#1d1b19" opacity=".12"/>
+    <!-- base -->
+    <path d="M-60 -10l60 -20 60 20-60 20z" fill="#2a2724"/>
+    <path d="M-60 -10v14l60 20v-14z" fill="#1d1b19"/>
+    <path d="M60 -10v14l-60 20v-14z" fill="#3a3631"/>
+    <!-- brass plate on base -->
+    <path d="M-38 -4l28 9v10l-28-9z" fill="url(#brass)"/>
+    <!-- faceted column -->
+    <path d="M-22 -30l22 -8 22 8v-150l-22 8-22-8z" fill="#17625f"/>
+    <path d="M-22 -30v-150l22 8v150z" fill="#0f4a47"/>
+    <path d="M22 -30v-150l-22 8v150z" fill="#1f7a76"/>
+    <path d="M-22 -30v-150l22 8v150z" fill="url(#ly)"/>
+    <path d="M22 -30v-150l-22 8v150z" fill="url(#ly)"/>
+    <!-- cup/collar -->
+    <path d="M-30 -182l30 -10 30 10-30 10z" fill="#f2b632"/>
+    <path d="M-30 -182v8l30 10v-8z" fill="#d49a1c"/>
+    <path d="M30 -182v8l-30 10v-8z" fill="#f2c85a"/>
+    <!-- ball -->
+    <circle cy="-222" r="34" fill="#fff6e0" stroke="#1d1b19" stroke-width="2.5"/>
+    <g fill="#1d1b19">
+      <path d="M0 -236l12 8-4 14H-8l-4-14z"/>
+      <path d="M-30 -226l10 -8 6 8-8 10-10-2z"/>
+      <path d="M30 -226l-10 -8-6 8 8 10 10-2z"/>
+      <path d="M-14 -196l10 -6 8 0 10 6-4 10h-20z"/>
+    </g>
+    <circle cy="-222" r="34" fill="url(#ly)"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#1d1b19">
+    <text x="30" y="420" font-weight="700">3D-printed trophy</text>
+    <text x="30" y="432" fill="#5b564f">PLA · 240 mm · engraved brass plate</text>
+  </g>
+
+  <!-- plaque -->
+  <g transform="translate(262 92)" filter="url(#sh)">
+    <rect width="200" height="150" rx="10" fill="#6b4324"/>
+    <rect width="200" height="150" rx="10" fill="url(#grain)"/>
+    <rect x="10" y="10" width="180" height="130" rx="6" fill="none" stroke="#3b2210" stroke-width="2"/>
+    <rect x="28" y="30" width="144" height="90" rx="4" fill="url(#brass)" stroke="#8a6a1a" stroke-width="1.5"/>
+    <g fill="#fff6e0" stroke="#8a6a1a" stroke-width=".8"><circle cx="36" cy="38" r="2.5"/><circle cx="164" cy="38" r="2.5"/><circle cx="36" cy="112" r="2.5"/><circle cx="164" cy="112" r="2.5"/></g>
+    <g font-family="Georgia, serif" text-anchor="middle" fill="#3b2a08">
+      <text x="100" y="56" font-size="9" letter-spacing="2.5" font-weight="700">MOST IMPROVED</text>
+      <text x="100" y="78" font-size="15" font-weight="700" font-style="italic">Jordan Alvarez</text>
+      <text x="100" y="94" font-size="8">U10 Hawks · Fall 2026</text>
+      <text x="100" y="108" font-size="7" letter-spacing="1.5">RIVERSIDE YOUTH SOCCER</text>
+    </g>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#1d1b19">
+    <text x="262" y="264" font-weight="700">Laser-engraved plaque</text>
+    <text x="262" y="276" fill="#5b564f">Walnut 8 × 6 in · brass-tone plate · personalized</text>
+  </g>
+
+  <!-- medal -->
+  <g transform="translate(500 300)" filter="url(#sh)">
+    <path d="M-22 -120h16l6 70h-28z" fill="#17625f"/>
+    <path d="M22 -120h-16l-6 70h28z" fill="#f2b632"/>
+    <circle r="46" fill="#e0a82e" stroke="#1d1b19" stroke-width="2.5"/>
+    <circle r="46" fill="url(#ly)"/>
+    <circle r="36" fill="none" stroke="#1d1b19" stroke-opacity=".35" stroke-width="2"/>
+    <circle r="15" fill="#fff6e0" stroke="#1d1b19" stroke-width="1.5"/>
+    <path d="M0 -8l5 4-2 6h-6l-2-6z" fill="#1d1b19"/>
+    <text y="30" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="7" letter-spacing="1" fill="#1d1b19" fill-opacity=".7">PARTICIPANT</text>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#1d1b19">
+    <text x="438" y="384" font-weight="700">Participation medal</text>
+    <text x="438" y="396" fill="#5b564f">3D-printed · 60 mm · team-color ribbon</text>
+  </g>
+</svg>

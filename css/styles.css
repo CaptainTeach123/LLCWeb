@@ -67,7 +67,7 @@ em { font-style: italic; color: var(--clay); }
 }
 .bar { display: flex; align-items: center; justify-content: space-between; min-height: 64px; gap: 16px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font: 700 1.2rem var(--font-head); }
-.brand-mark { width: 30px; height: 30px; }
+.brand-mark { width: 34px; height: 34px; flex-shrink: 0; }
 .nav { display: flex; align-items: center; gap: 22px; }
 .nav a { text-decoration: none; font-weight: 500; font-size: .98rem; color: var(--muted); }
 .nav a:hover { color: var(--ink); }

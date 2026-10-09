@@ -6,11 +6,11 @@ A dependency-free static site (HTML, CSS, a little JavaScript). No build step.
 index.html        page content
 css/styles.css    design (light + dark mode)
 js/main.js        nav, scroll reveal, contact form
-assets/           favicon
+assets/           logo (logo.svg, logo-mark.svg), favicon, og-image.png, mockups/
 ```
 
 The site's domain is `miscellanyoffunction.com`. The contact address
-`hello@miscellanyoffunction.com` (in `index.html` and `js/main.js`) only works once
+`logan@miscellanyoffunction.com` (in `index.html` and `js/main.js`) only works once
 you've set up email for that domain (Cloudflare Email Routing is a free option).
 
 ## Preview locally
