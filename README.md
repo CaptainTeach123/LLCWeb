@@ -9,8 +9,9 @@ js/main.js        nav, scroll reveal, contact form
 assets/           favicon
 ```
 
-`hello@miscellanyoffunction.example` is a placeholder. Search for it (in `index.html`
-and `js/main.js`) and replace it with your real contact address.
+The site's domain is `miscellanyoffunction.com`. The contact address
+`hello@miscellanyoffunction.com` (in `index.html` and `js/main.js`) only works once
+you've set up email for that domain (Cloudflare Email Routing is a free option).
 
 ## Preview locally
 
@@ -74,12 +75,10 @@ on any host or domain. When you're ready:
    (usually a `CNAME` for `www` and `A`/`ALIAS` records for the root domain).
    On GitHub Pages, also add a file named `CNAME` containing just your domain.
    For Cloudflare, see the section above.
-3. **Add these once the domain is live** (in `<head>` of `index.html`):
-   ```html
-   <link rel="canonical" href="https://YOUR-DOMAIN/">
-   <meta property="og:url" content="https://YOUR-DOMAIN/">
-   ```
-   For link-preview images, also add `og:image` with a full `https://` URL.
+3. **Domain tags** (`canonical`, `og:url`, `robots.txt`, `sitemap.xml`) already
+   point at `https://miscellanyoffunction.com/`. If the domain ever changes,
+   update those four places. For link-preview images, add `og:image` with a
+   full `https://` URL to a PNG or JPG (many sites don't preview SVGs).
 4. **Contact form:** by default it opens the visitor's email app. For a real
    form, set `FORM_ENDPOINT` at the top of `js/main.js` (Formspree, Netlify
    Forms, etc.) and update `CONTACT_EMAIL`.
