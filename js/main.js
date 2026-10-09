@@ -3,7 +3,7 @@
 
   // ---- Settings you may want to change -------------------------------------
   // Contact address used by the mailto fallback.
-  var CONTACT_EMAIL = 'hello@commonforge.example';
+  var CONTACT_EMAIL = 'hello@miscellanyoffunction.example';
   // Optional: a form-handling endpoint (Formspree, Netlify Forms, your own API).
   // When set, the form POSTs JSON there instead of opening the visitor's email app.
   var FORM_ENDPOINT = '';
